@@ -5,6 +5,7 @@ import ServiceDetails from "../pages/ServiceDetails";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import ErrorPage from "../pages/ErrorPage";
+import PrivateRoute from "./PrivateRoute";
 
 
 export const router = createBrowserRouter([
@@ -19,7 +20,9 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/service/:id',
-                element:<ServiceDetails></ServiceDetails>,
+                element:<PrivateRoute>
+                    <ServiceDetails></ServiceDetails>
+                    </PrivateRoute>,
                 loader: () => fetch('../services.json')
             },
             {
