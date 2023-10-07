@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const NavbarSection = () => {
   return (
     <div className="">
@@ -69,7 +71,8 @@ const NavbarSection = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <Link className="btn" to='/login'>
+          Login</Link>
         </div>
       </div>
     </div>
