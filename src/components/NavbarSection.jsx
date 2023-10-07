@@ -1,7 +1,7 @@
 const NavbarSection = () => {
   return (
-    <div>
-      <div className="navbar bg-base-200 mb-2">
+    <div className="">
+      <div className="navbar bg-base-200 mb-2 sticky">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -43,7 +43,7 @@ const NavbarSection = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <img className="p-3 w-60" src="/logo.jpg" alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
