@@ -6,10 +6,10 @@ const Service = ({service}) => {
 
   return (
     <div>
-      <div className="overflow-hidden mx-auto mt-2 rounded-lg has-shadow w-80">
+      <div className="overflow-hidden mx-auto mt-2 border-b-2 border-t-8 border-black rounded-lg has-shadow w-80">
         <img
-          src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-          className="aspect-video rounded-b-none"
+          src={image}
+          className="aspect-video rounded-b-none h-40"
           alt=""
         />
         <div className="p-4 flex flex-col gap-2">
@@ -21,11 +21,11 @@ const Service = ({service}) => {
               💥
             </p>
           </div>
-          <div className="text-center">
-            <p><span className="text-5xl">{price}</span>/Taka</p>
+          <div className="text-center mt-7">
+            <p><span className="text-5xl"><sup>$</sup>{price}</span>/Event</p>
           </div>
           <Link to={`/service/${id}`}>
-          <button className="w-full btn solid success">Service Details</button>
+          <button className="w-full btn bg-black text-white hover:text-black ">View Details</button>
           </Link>
         </div>
       </div>

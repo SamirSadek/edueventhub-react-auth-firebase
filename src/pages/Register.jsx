@@ -16,7 +16,7 @@ const Register = () => {
         const password = e.target.password.value
         const photourl = e.target.photoUrl.value
         const name = e.target.name.value
-        console.log(name,email,password,photoURL)
+        console.log(name,email,password,photourl)
         if(!/^(?=.*[A-Z])(?=.*[!@#$%^&*]).{6,}$/.test(password)){
             setPassError("Password should contain atleast one Capital letter, one special character and Minimum Six Characters")
         }else{

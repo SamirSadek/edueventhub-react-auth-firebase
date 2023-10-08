@@ -1,45 +1,45 @@
 [
     {
       "id": 1,
-      "image": "https://i.ibb.co/z6pjL1y/D200-0913-105.jpg",
+      "image": "https://i.ibb.co/JKtmhCS/undraw-geniuses-9h9g.png",
       "name": "Skill-Building Workshops",
       "description": "Skill-Building Workshops are hands-on learning experiences designed to help participants acquire or enhance specific practical skills and knowledge. These workshops are typically conducted in a focused and interactive format, often led by experts in the field. Attendees have the opportunity to engage in practical exercises, receive feedback, and collaborate with peers, making them an effective way to gain expertise in a particular area. Whether it's mastering a new software tool, improving communication skills, or developing technical competencies, skill-building workshops empower individuals to enhance their professional capabilities and contribute effectively in their careers.",
       "price": 2900
     },
     {
       "id": 2,
-      "image": "https://example.com/webinar-image.jpg",
+      "image": "https://i.ibb.co/ncsxJZs/undraw-online-connection-6778.png",
       "name": "Interactive Webinar Series",
       "description": "Engage in informative and interactive webinars led by industry experts. Explore trending topics, ask questions, and gain valuable insights from the comfort of your home or office.",
-      "price": 0
+      "price": 6000
     },
     {
       "id": 3,
-      "image": "https://example.com/career-fair-image.jpg",
+      "image": "https://i.ibb.co/JpgyQYC/undraw-online-resume-re-ru7s.png",
       "name": "Tech Career Fair",
       "description": "Join the Tech Career Fair to connect with leading tech companies, explore job opportunities, and network with recruiters. Open doors to exciting career prospects.",
-      "price": 0
+      "price": 9000
     },
     {
       "id": 4,
-      "image": "https://example.com/conference-image.jpg",
+      "image": "https://i.ibb.co/QDy3f4n/undraw-education-f8ru.png",
       "name": "Global Education Summit",
       "description": "Participate in the Global Education Summit to delve into educational advancements, innovative teaching methods, and networking with educators and thought leaders from around the world.",
-      "price": 150
+      "price": 1500
     },
     {
       "id": 5,
-      "image": "https://example.com/training-image.jpg",
+      "image": "https://i.ibb.co/ZSLDq71/undraw-Scrum-board-re-wk7v.png",
       "name": "Project Management Training",
       "description": "Enroll in our comprehensive Project Management Training program to master project planning, execution, and leadership skills. Boost your career prospects and excel in your field.",
-      "price": 850
+      "price": 8500
     },
     {
       "id": 6,
-      "image": "https://example.com/networking-image.jpg",
+      "image": "https://i.ibb.co/fqp4zbX/undraw-connected-world-wuay.png",
       "name": "Professional Networking",
       "description": "Join our Professional Networking Mixer to build valuable connections, exchange ideas, and discover collaborative opportunities in a relaxed and social atmosphere.",
-      "price": 25
+      "price": 2500
     }
   ]
   

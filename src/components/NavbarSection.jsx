@@ -49,7 +49,7 @@ const NavbarSection = () => {
               {navLinks}
             </ul>
           </div>
-          <img className="p-3 w-60" src="/logo.jpg" alt="" />
+          <img className="p-3 w-40 lg:w-60" src="/logo.jpg" alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
@@ -57,10 +57,10 @@ const NavbarSection = () => {
         <div className="navbar-end">
           <div>
             {user ? (
-            <div className="flex items-center gap-4 ">
-              <p>{user?.displayName}</p>
-              <img className="rounded-full w-12 border-2 border-black" src={user?.photoURL} alt="" />
-              <button className="btn bg-black text-white" onClick={handleLogOut}>
+            <div className="flex items-center gap-1 md:gap-4 ">
+              <p className="text-blue-gray-700 md:border-t-2 border-blue-gray-900 md:p-2 md:shadow-lg md:rounded-full text-xs font-bold">{user?.displayName}</p>
+              <img className="rounded-full w-8 md:w-12 border-2 border-black" src={user?.photoURL} alt="" />
+              <button className="btn bg-blue-600 text-white w-16 text-xs py-0 hidden md:inline-block" onClick={handleLogOut}>
                 logOut
               </button>
             </div>

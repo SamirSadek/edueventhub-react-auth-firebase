@@ -12,10 +12,11 @@ const Services = () => {
   }, []);
   return (
     <div>
-      <div className="w-fit mx-auto p-9 text-5xl font-bold from-[#6366F1] via-[#D946EF] to-[#FB7185] bg-gradient-to-r bg-clip-text text-transparent">
-        <p>Our Services</p>
+      <div className="w-fit mx-auto mt-10 px-9 text-5xl font-bold from-[#383636] via-[#656466] to-[#ffffff] bg-gradient-to-r bg-clip-text text-transparent">
+        <p >Our Services</p>
       </div>
-      <div className="max-w-6xl mx-auto grid grid-cols-3 gap-16">
+      <p className="w-2/3 mx-auto text-center my-4">These event services are designed to facilitate and enhance learning experiences, both in formal educational settings and through various educational events. </p>
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
         {
             services.map((service)=><Service key={service.id} service={service}></Service>)
         } 

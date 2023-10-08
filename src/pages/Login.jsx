@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Footer from "../components/Footer";
 import NavbarSection from "../components/NavbarSection";
 import { useContext, useState } from "react";
@@ -7,13 +7,20 @@ import { AuthContext } from "../firebase/AuthProvider/AuthProvider";
 const Login = () => {
 
     const {googleSignIn,logIn} =useContext(AuthContext)
+    const location =  useLocation()
+    const navigate = useNavigate()
     const [error,setError] = useState('')
     const handleLogin =(e)=>{
         e.preventDefault()
         const email = e.target.email.value
         const password = e.target.password.value
         logIn(email,password)
-        .then(result => console.log(result.user))
+        .then(result => {
+
+            console.log(result.user)
+            navigate(location?.state? location.state : "/")
+        })
+        // eslint-disable-next-line no-unused-vars
         .catch(error => setError("Email and PassWord Doesn't Match"))
 
     }
@@ -22,6 +29,8 @@ const Login = () => {
         googleSignIn()
         .then(result =>{
             console.log(result.user)
+            navigate(location?.state? location.state : "/")
+
         })
         .catch(error => {
             console.error(error.message)
