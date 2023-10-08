@@ -5,7 +5,7 @@ const Banner = () => {
         <Carousel className="rounded-sm h-96 overflow-hidden">
         <div className="relative h-96 max-h-96 w-full ">
           <img
-            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+            src="https://i.ibb.co/WHtN6Wj/alexandre-pellaes-6v-Ajp0psc-X0-unsplash-1.jpg"
             alt="image 1"
             className="object-cover w-full h-full"
           />
@@ -16,17 +16,14 @@ const Banner = () => {
                 color="white"
                 className="mb-4  text-3xl md:text-4xl lg:text-5xl"
               >
-                The Beauty of Nature
+                Educational Summit Specialists
               </Typography>
               <Typography
                 variant="lead"
                 color="white"
                 className="mb-12 opacity-80"
               >
-                It is not so much for its beauty that the forest makes a claim
-                upon men&apos;s hearts, as for that subtle something, that quality
-                of air that emanation from old trees, that so wonderfully changes
-                and renews a weary spirit.
+                Elevating your educational summits to new heights. Our team ensures your message resonates with attendees.
               </Typography>
               
             </div>
@@ -34,8 +31,8 @@ const Banner = () => {
         </div>
         <div className="relative h-full w-full ">
           <img
-            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-            alt="image 1"
+            src="https://i.ibb.co/L5ccb7y/headway-F2-KRf-Qf-Cqw-unsplash.jpg"
+            alt="image 2"
             className="object-cover w-full h-full"
           />
           <div className="absolute inset-0 grid h-full w-full  place-items-center bg-black/75">
@@ -45,17 +42,14 @@ const Banner = () => {
                 color="white"
                 className="mb-4  text-3xl md:text-4xl lg:text-5xl"
               >
-                The Beauty of Nature
+                Academic Program Coordinators
               </Typography>
               <Typography
                 variant="lead"
                 color="white"
                 className="mb-12 opacity-80"
               >
-                It is not so much for its beauty that the forest makes a claim
-                upon men&apos;s hearts, as for that subtle something, that quality
-                of air that emanation from old trees, that so wonderfully changes
-                and renews a weary spirit.
+                Streamlining education events with precision. We handle the logistics, so you can focus on delivering impactful content.
               </Typography>
               
             </div>
@@ -63,8 +57,8 @@ const Banner = () => {
         </div>
         <div className="relative h-full w-full ">
           <img
-            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-            alt="image 1"
+            src="https://i.ibb.co/PjZCqFJ/kenny-eliason-1-a-A2-Fadydc-unsplash.jpg"
+            alt="image 3"
             className="object-cover w-full h-full"
           />
           <div className="absolute inset-0 grid h-full w-full  place-items-center bg-black/75">
@@ -74,17 +68,14 @@ const Banner = () => {
                 color="white"
                 className="mb-4 text-3xl md:text-4xl lg:text-5xl"
               >
-                The Beauty of Nature
+                Learning Symposium Planners
               </Typography>
               <Typography
                 variant="lead"
                 color="white"
                 className="mb-12 opacity-80"
               >
-                It is not so much for its beauty that the forest makes a claim
-                upon men&apos;s hearts, as for that subtle something, that quality
-                of air that emanation from old trees, that so wonderfully changes
-                and renews a weary spirit.
+                Experts in curating dynamic learning experiences. We design and manage symposiums that foster knowledge exchange and growth.
               </Typography>
               
             </div>

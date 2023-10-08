@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
 const Service = ({service}) => {
-    const {id,image,name,price} = service
+    const {id,image,name,price,description} = service
     console.log(service)
 
   return (
     <div>
-      <div className="overflow-hidden mx-auto mt-2 border-b-2 border-t-8 border-black rounded-lg has-shadow w-80">
+      <div className="overflow-hidden min-h-max-h-screen mx-auto mt-2 border-b-2 border-r-2 border-l-2 border-t-[20px] border-blue-gray-900 rounded-lg has-shadow w-80">
         <img
           src={image}
           className="aspect-video rounded-b-none h-40"
@@ -16,16 +16,14 @@ const Service = ({service}) => {
           <h3 className="text-xl font-semibold">{name}</h3>
           <div className="text-sm">
             <p>
-              🕹 Customizable and 😍 accessible design system which provides
-              TailwindCSS component className name library to build modern UI.
-              💥
+              {description}
             </p>
           </div>
           <div className="text-center mt-7">
             <p><span className="text-5xl"><sup>$</sup>{price}</span>/Event</p>
           </div>
           <Link to={`/service/${id}`}>
-          <button className="w-full btn bg-black text-white hover:text-black ">View Details</button>
+          <button className="w-full btn bg-base-200 text-blue-gray-700 hover:text-black ">View Details</button>
           </Link>
         </div>
       </div>

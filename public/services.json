@@ -3,14 +3,16 @@
       "id": 1,
       "image": "https://i.ibb.co/JKtmhCS/undraw-geniuses-9h9g.png",
       "name": "Skill-Building Workshops",
-      "description": "Skill-Building Workshops are hands-on learning experiences designed to help participants acquire or enhance specific practical skills and knowledge. These workshops are typically conducted in a focused and interactive format, often led by experts in the field. Attendees have the opportunity to engage in practical exercises, receive feedback, and collaborate with peers, making them an effective way to gain expertise in a particular area. Whether it's mastering a new software tool, improving communication skills, or developing technical competencies, skill-building workshops empower individuals to enhance their professional capabilities and contribute effectively in their careers.",
+      "description": "📚 Elevate your skills with our Skill-Building Workshops! Experience a dynamic learning environment with our customizable and accessible design system.  💥🚀",
+      "advantage":"Tailoring the learning experience to individual needs. Ensuring that everyone can participate and benefit. Providing the tools to design modern UIs effectively.",
       "price": 2900
     },
     {
       "id": 2,
       "image": "https://i.ibb.co/ncsxJZs/undraw-online-connection-6778.png",
       "name": "Interactive Webinar Series",
-      "description": "Engage in informative and interactive webinars led by industry experts. Explore trending topics, ask questions, and gain valuable insights from the comfort of your home or office.",
+      "description": "🌐 Dive into our Interactive Webinar Series! Join us for engaging and informative sessions that foster active participation and knowledge sharing.",
+      "advantage":" Actively participate and interact with experts.Benefit from insights and discussions.Explore a variety of subjects in depth.",
       "price": 6000
     },
     {
@@ -18,27 +20,31 @@
       "image": "https://i.ibb.co/JpgyQYC/undraw-online-resume-re-ru7s.png",
       "name": "Tech Career Fair",
       "description": "Join the Tech Career Fair to connect with leading tech companies, explore job opportunities, and network with recruiters. Open doors to exciting career prospects.",
+      "advantage":" Connect with leading tech companies.Build valuable connections in the tech industry.Take significant steps in your tech career.",
       "price": 9000
     },
     {
       "id": 4,
       "image": "https://i.ibb.co/QDy3f4n/undraw-education-f8ru.png",
       "name": "Global Education Summit",
-      "description": "Participate in the Global Education Summit to delve into educational advancements, innovative teaching methods, and networking with educators and thought leaders from around the world.",
+      "description": "🚀 Explore Your Future at the Tech Career Fair! Join us for an opportunity-packed event where leading tech companies connect with talent!",
+      "advantage":"Connect with leading tech companies.Build valuable connections in the tech industry.Take significant steps in your tech career.",
       "price": 1500
     },
     {
       "id": 5,
       "image": "https://i.ibb.co/ZSLDq71/undraw-Scrum-board-re-wk7v.png",
       "name": "Project Management Training",
-      "description": "Enroll in our comprehensive Project Management Training program to master project planning, execution, and leadership skills. Boost your career prospects and excel in your field.",
+      "description": "📈 Elevate Your Skills with Project Management Training! Join us for comprehensive training sessions that equip you with the knowledge and tools!",
+      "advantage":" Gain knowledge and skills in project management.Apply what you learn through practical training.Boost your career prospects in project management.",
       "price": 8500
     },
     {
       "id": 6,
       "image": "https://i.ibb.co/fqp4zbX/undraw-connected-world-wuay.png",
       "name": "Professional Networking",
-      "description": "Join our Professional Networking Mixer to build valuable connections, exchange ideas, and discover collaborative opportunities in a relaxed and social atmosphere.",
+      "description": "🤝 Unlock Opportunities with Professional Networking! Join our exclusive networking events to connect with industry leaders, expand your professional circle!",
+      "advantage":"Connect with influential professionals.Unlock career and business opportunities.Sharpen your skills and expand your knowledge.",
       "price": 2500
     }
   ]

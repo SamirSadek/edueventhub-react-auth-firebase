@@ -8,6 +8,9 @@ const navLinks = (
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
+        <NavLink to="/services">Services</NavLink>
+      </li>
+      <li>
         <NavLink to="/contact">Contact</NavLink>
       </li>
     </div>
@@ -60,12 +63,12 @@ const NavbarSection = () => {
             <div className="flex items-center gap-1 md:gap-4 ">
               <p className="text-blue-gray-700 md:border-t-2 border-blue-gray-900 md:p-2 md:shadow-lg md:rounded-full text-xs font-bold">{user?.displayName}</p>
               <img className="rounded-full w-8 md:w-12 border-2 border-black" src={user?.photoURL} alt="" />
-              <button className="btn bg-blue-600 text-white w-16 text-xs py-0 hidden md:inline-block" onClick={handleLogOut}>
-                logOut
-              </button>
+              <Link onClick={handleLogOut} className="btn bg-blue-gray-900 text-white" to="/login">
+                LogOut
+              </Link>
             </div>
             ) : (
-              <Link className="btn bg-black text-white" to="/login">
+              <Link className="btn bg-blue-gray-900 text-white" to="/login">
                 Login
               </Link>
             )}
