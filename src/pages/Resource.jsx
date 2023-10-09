@@ -22,7 +22,7 @@ const Resource = () => {
       <NavbarSection></NavbarSection>
       <div className=" pb-10  ">
       <div className="w-fit mx-auto pt-10  px-9 text-4xl font-bold from-[#383636] via-[#656466] to-[#ffffff] bg-gradient-to-r bg-clip-text text-transparent">
-        <p >Premium Resources</p>
+        <p >Free Resources</p>
       </div>
       <p className="w-2/3 mx-auto text-center my-4">These Resources are designed to facilitate and enhance learning experiences, both in formal educational settings and through various educational events. </p>
       <div className="w-60 border-2 mx-auto mb-20 border-blue-gray-900"></div>

@@ -11,8 +11,8 @@ const FreeAccess = ({ resource }) => {
   const { id, image, name, description } = resource;
 
   return (
-    <div>
-      <Card className="max-w-[24rem] overflow-hidden">
+    <div className="">
+      <Card className="max-w-[24rem] mx-auto overflow-hidden">
         <CardHeader
           floated={false}
           shadow={false}
@@ -54,7 +54,7 @@ const FreeAccess = ({ resource }) => {
               />
             </Tooltip>
           </div>
-          <Typography className="font-bold text-red-900">Premium Event</Typography>
+          <Typography className="font-bold text-white bg-blue-gray-900 p-2 rounded-lg">Free Event</Typography>
         </CardFooter>
       </Card>
     </div>

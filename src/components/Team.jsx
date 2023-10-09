@@ -15,16 +15,15 @@ const Team = () => {
         <p>Founders</p>
       </div>
       <p className="w-2/3 mx-auto text-center my-4">
-        These event services are designed to facilitate and enhance learning
-        experiences, both in formal educational settings and through various
-        educational events.{" "}
+      Meet Our Visionary Founders!! <br />
+      we proudly honor the remarkable journey of our visionary founder, whose unwavering dedication and trailblazing spirit have shaped our organizations path to success
       </p>
       <div className="w-60 border-2 mx-auto mb-20 border-blue-gray-900"></div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-10 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 mb-10 gap-20">
         <Card
           
-          className="w-96 md:w-72 lg:w-96 "
+          className="w-80 lg:w-96  "
         >
           <CardHeader floated={false} className="h-60">
             <img
@@ -81,7 +80,7 @@ const Team = () => {
         </Card>
         <Card
          
-          className="w-96 md:w-72 lg:w-96"
+          className="w-80 lg:w-96 "
         >
           <CardHeader floated={false} className="h-60">
             <img
@@ -138,7 +137,7 @@ const Team = () => {
         </Card>
         <Card
           
-          className="w-96 md:w-72 lg:w-96"
+          className="w-80 lg:w-96 "
         >
           <CardHeader floated={false} className="h-60">
             <img
