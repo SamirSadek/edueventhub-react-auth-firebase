@@ -18,7 +18,7 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: B ?
+#### Answer: B 
 
 <i>"greetign" is not defined as a variable. When we console "greetign", javascript cannot find this as variable thats why its encounter a ReferenceError </i>
 
@@ -43,7 +43,7 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: C ?
+#### Answer: C 
 
 <i>When we concatenate a string and a number in Javascript,JavaScript convert the number to a string and perform string concatenation </i>
 
@@ -69,7 +69,7 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer:A ?
+#### Answer:A 
 
 <i>The info.favoriteFood variable is updated with new value but this doesnot effect the food array, thats why food array remain unchanged.</i>
 
@@ -94,7 +94,7 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer:B ?
+#### Answer:B 
 
 <i>Name parameter inside the function is not assigned a value, here sayHi function called with out passing an argument</i>
 
@@ -122,7 +122,7 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: C ?
+#### Answer: C 
 
 <i>The code uses a loop called forEach to go through each value in the array. It checks if the current value is truthy. In JavaScript, 0 is a falsy value, and any other number is truthy. So, for each value in the array that is not 0, it increments the count variable.In this case, there are three truthy values 1, 2, and 3</i>
 
