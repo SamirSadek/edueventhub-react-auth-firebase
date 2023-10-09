@@ -1,8 +1,12 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
+
 import Footer from "../components/Footer";
 import NavbarSection from "../components/NavbarSection";
 import { useContext, useState } from "react";
 import { AuthContext } from "../firebase/AuthProvider/AuthProvider";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Login = () => {
 
@@ -16,25 +20,33 @@ const Login = () => {
         const password = e.target.password.value
         logIn(email,password)
         .then(result => {
-
+          toast("Log In successful!");
             console.log(result.user)
+           
             navigate(location?.state? location.state : "/")
+            
         })
         // eslint-disable-next-line no-unused-vars
         .catch(error => setError("Email and PassWord Doesn't Match"))
+        
+        
 
     }
 
     const handleGoogleSignIn=()=>{
         googleSignIn()
-        .then(result =>{
-            console.log(result.user)
+        .then(() =>{
+          toast("Log In successful!");
+            
+            
+
             navigate(location?.state? location.state : "/")
 
         })
         .catch(error => {
             console.error(error.message)
         })
+        
     }
   return (
     <div>
@@ -88,13 +100,16 @@ const Login = () => {
                 <path d="M23.4694 9.07688C27.8699 9.07688 30.8622 10.9863 32.5344 12.5725L39.1645 6.11C35.0867 2.32063 29.8061 0 23.4694 0C14.287 0 6.36607 5.2875 2.49362 12.9544L10.0918 18.8588C11.9987 13.1894 17.25 9.07688 23.4694 9.07688Z" fill="#EB4335"/>
               </svg>
               Sign in with Google
+              
             </button> 
             </div>
           </div>
         </div>
+        
       </div>
-
+     
       <Footer></Footer>
+      <ToastContainer/>
     </div>
   );
 };

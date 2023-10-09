@@ -3,7 +3,8 @@ import { Card, CardBody, Typography } from "@material-tailwind/react";
 const WhyChooseUs = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto gap-5">
-      <Card className="mt-6 w-96 shadow-none">
+      <Card className="mt-6 w-96 shadow-none" data-aos="zoom-in"
+          data-aos-duration="1500">
         <CardBody>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +26,8 @@ const WhyChooseUs = () => {
           </Typography>
         </CardBody>
       </Card>
-      <Card className="mt-6 w-96 shadow-none">
+      <Card className="mt-6 w-96 shadow-none" data-aos="zoom-in"
+          data-aos-duration="1500">
         <CardBody>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +51,8 @@ const WhyChooseUs = () => {
           </Typography>
         </CardBody>
       </Card>
-      <Card className="mt-6 w-96 shadow-none">
+      <Card className="mt-6 w-96 shadow-none" data-aos="zoom-in"
+          data-aos-duration="1500">
         <CardBody>
           <svg
             xmlns="http://www.w3.org/2000/svg"

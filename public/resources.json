@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/JKtmhCS/undraw-geniuses-9h9g.png",
+        "name": "Web Dev Workshop",
+        "description": "📚 Elevate your skills with our Web Development Workshop! Experience a dynamic learning environment design system. 💥"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/ncsxJZs/undraw-online-connection-6778.png",
+        "name": "Data Science Webinar",
+        "description": "🌐 Dive into our Data Science Webinar! Join us for engaging and informative sessions that foster and knowledge sharing."
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/JpgyQYC/undraw-online-resume-re-ru7s.png",
+        "name": "Cloud Computing Career ",
+        "description": "Join the Cloud Computing Fair to connect with leading tech companies,explore job opportunities.doors to career."
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/QDy3f4n/undraw-education-f8ru.png",
+        "name": "AI Summit",
+        "description": "🚀 Explore Your Future at the Artificial Intelligence Summit! Join us for an opportunity-packed event where leading tech companies connect with talent."
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/ZSLDq71/undraw-Scrum-board-re-wk7v.png",
+        "name": "Cybersecurity Training",
+        "description": "📈 Elevate Your Skills with Cybersecurity Training! Join us for comprehensive training sessions that equip you with the knowledge and tools."
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/fqp4zbX/undraw-connected-world-wuay.png",
+        "name": "Blockchain Networking",
+        "description": "🤝 Unlock Opportunities with Blockchain Networking! Join our events to connect with industry leaders, expand your professional circle."
+    }
+]

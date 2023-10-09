@@ -11,7 +11,6 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    // bg-[url('https://i.ibb.co/Q8z8VjR/mesh-167-1.png')] bg-cover bg-center bg-no-repeat
     <div className=" pb-10  ">
       <div className="w-fit mx-auto pt-10  px-9 text-4xl font-bold from-[#383636] via-[#656466] to-[#ffffff] bg-gradient-to-r bg-clip-text text-transparent">
         <p >Our Services</p>

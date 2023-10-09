@@ -3,7 +3,7 @@
       "id": 1,
       "image": "https://i.ibb.co/JKtmhCS/undraw-geniuses-9h9g.png",
       "name": "Skill-Building Workshops",
-      "description": "📚 Elevate your skills with our Skill-Building Workshops! Experience a dynamic learning environment with our customizable and accessible design system.  💥🚀",
+      "description": "📚 Elevate your skills with our Skill-Building Workshops! Experience a dynamic learning environment with our accessible design system.  💥🚀",
       "advantage":"Tailoring the learning experience to individual needs. Ensuring that everyone can participate and benefit. Providing the tools to design modern UIs effectively.",
       "price": 2900
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "image": "https://i.ibb.co/JpgyQYC/undraw-online-resume-re-ru7s.png",
       "name": "Tech Career Fair",
-      "description": "Join the Tech Career Fair to connect with leading tech companies, explore job opportunities, and network with recruiters. Open doors to exciting career prospects.",
+      "description": "Join the Tech Career Fair to connect with leading tech companies, explore job opportunities,network with recruiters.Open doors to exciting career.",
       "advantage":" Connect with leading tech companies.Build valuable connections in the tech industry.Take significant steps in your tech career.",
       "price": 9000
     },
@@ -34,7 +34,7 @@
     {
       "id": 5,
       "image": "https://i.ibb.co/ZSLDq71/undraw-Scrum-board-re-wk7v.png",
-      "name": "Project Management Training",
+      "name": "Project Management",
       "description": "📈 Elevate Your Skills with Project Management Training! Join us for comprehensive training sessions that equip you with the knowledge and tools!",
       "advantage":" Gain knowledge and skills in project management.Apply what you learn through practical training.Boost your career prospects in project management.",
       "price": 8500
@@ -43,7 +43,7 @@
       "id": 6,
       "image": "https://i.ibb.co/fqp4zbX/undraw-connected-world-wuay.png",
       "name": "Professional Networking",
-      "description": "🤝 Unlock Opportunities with Professional Networking! Join our exclusive networking events to connect with industry leaders, expand your professional circle!",
+      "description": "🤝 Unlock Opportunities with Professional Networking! Join our events to connect with industry leaders, expand your professional circle!",
       "advantage":"Connect with influential professionals.Unlock career and business opportunities.Sharpen your skills and expand your knowledge.",
       "price": 2500
     }

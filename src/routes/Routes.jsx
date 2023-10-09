@@ -7,6 +7,9 @@ import Register from "../pages/Register";
 import ErrorPage from "../pages/ErrorPage";
 import PrivateRoute from "./PrivateRoute";
 import ServicesPages from "../pages/ServicesPages";
+import Blog from "../pages/Blog";
+import Contact from "../pages/Contact";
+import Resource from "../pages/Resource";
 
 
 export const router = createBrowserRouter([
@@ -37,7 +40,20 @@ export const router = createBrowserRouter([
             {
                 path: '/services',
                 element:<ServicesPages></ServicesPages>
-            }
+            },
+            {
+                path: '/blog',
+                element:<PrivateRoute><Blog></Blog></PrivateRoute>
+            },
+            {
+                path: '/contact',
+                element:<Contact></Contact>
+            },
+            {
+                path: '/resource',
+                element:<PrivateRoute><Resource></Resource></PrivateRoute>,
+            },
+            
         ]
     }
 ])
