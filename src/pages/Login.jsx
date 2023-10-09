@@ -23,7 +23,9 @@ const Login = () => {
           toast("Log In successful!");
             console.log(result.user)
            
-            navigate(location?.state? location.state : "/")
+            setTimeout(() => {
+              navigate(location?.state ? location.state : "/");
+            }, 1500);
             
         })
         // eslint-disable-next-line no-unused-vars
@@ -38,9 +40,9 @@ const Login = () => {
         .then(() =>{
           toast("Log In successful!");
             
-            
-
-            navigate(location?.state? location.state : "/")
+          setTimeout(() => {
+            navigate(location?.state ? location.state : "/");
+          }, 1500);
 
         })
         .catch(error => {

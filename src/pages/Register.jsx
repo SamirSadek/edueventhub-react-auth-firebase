@@ -20,11 +20,20 @@ const Register = () => {
     googleSignIn()
       .then((result) => {
         console.log(result.user);
-        navigate(location?.state ? location.state : "/");
+        
+        toast("Registration Successful");
+        setTimeout(() => {
+          navigate(location?.state ? location.state : "/");
+        }, 1500);
+        
+        
+        // navigate(location?.state ? location.state : "/");
+        
       })
       .catch((error) => {
         console.error(error.message);
       });
+      
   };
   const handleSignUp = (e) => {
     e.preventDefault();
@@ -60,8 +69,6 @@ const Register = () => {
         .catch(() =>  setEmailError("These email already in use"));
     }
 
-    
-    
   };
   return (
     <div>
@@ -176,7 +183,9 @@ const Register = () => {
         </div>
       </div>
       <Footer></Footer>
-      <ToastContainer />
+      
+      <ToastContainer
+      autoClose={5000} />
     </div>
   );
 };
