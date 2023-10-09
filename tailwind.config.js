@@ -5,5 +5,5 @@ module.exports = withMT({
   theme: {
     extend: {},
   },
-  plugins: [require("daisyui"),require('@sira-ui/tailwind')],
+  plugins: [require("daisyui")],
 });
